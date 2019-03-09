@@ -1,0 +1,8 @@
+<h1>Photos of '{{albumname}}' Album</h1>
+<a class="btnback"  [routerLink]="['/users']" style="cursor :pointer">Back To Users</a> 
+<ul class="listpics" *ngFor="let photo of photoes; let i =index">
+    <li>
+      <a href="{{photo.url}}" target="_blank"><img src="{{photo.thumbnailUrl}}" title="{{photo.title}}"></a>
+     </li> 
+</ul>
+

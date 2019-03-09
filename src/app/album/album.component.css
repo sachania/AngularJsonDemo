@@ -1,0 +1,3 @@
+.alblist li { float:left; width:25%; margin-bottom:50px; min-height:50px}
+.alblist a { font-weight:bold }
+.btnback{ font-weight:bold; display:block; font-size:20px; margin-bottom:50px;}

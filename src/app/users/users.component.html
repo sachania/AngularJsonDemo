@@ -1,0 +1,8 @@
+<h1>List of Users</h1>
+<ul class="userlist"  *ngFor="let user of users; let i =index">
+  <li>
+	<h3>{{user.name}}</h3> {{user.email}} <br/><br/>     
+	<a [routerLink]="['/album', user.id]"> View Album of &nbsp;{{user.name}}</a>
+  </li>
+</ul>
+
